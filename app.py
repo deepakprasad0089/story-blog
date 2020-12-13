@@ -9,4 +9,4 @@ def home():
        entries.append(entry_content)
        #return render_template("home.html")
    #else:
-   return render_template("home.html")
+   return render_template("home.html",entries=entries)
