@@ -6,3 +6,8 @@ font-family: cursive;
 .title{
  font-size: 30px;
 }
+
+header{
+max-width: 640px;
+margin: 50px auto;
+}
