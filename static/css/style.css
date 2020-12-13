@@ -10,4 +10,8 @@ font-family: cursive;
 header{
 max-width: 640px;
 margin: 50px auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 24px;
 }
