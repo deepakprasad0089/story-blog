@@ -5,11 +5,11 @@
 </head>
 <body>
   
-     <title>Story blog</title>
-     <div>
-         <div>Recent</div>
-         <div>Category</div>
-         <div>Calendar</div>
+     <div class="title">Story blog</div>
+     <div class="menu">
+         <div class="menu-item">Recent</div>
+         <div class="menu-item">Category</div>
+         <div class="menu-item">Calendar</div>
      </div>
   <div>
      <form method="POST">
@@ -18,9 +18,12 @@
      </form>
     <div class="entries">
     {% for entry in entries %}
-    <p>{{entry}}</p>
-    {% endfor %}
+    <div class="entry">
+        <div class="entry-title">Title of story</div>
+        <p class="entry-content">{{entry}}</p>
     </div>
+     {% endfor %}
+    
 </div>
 </div>
 <body>
