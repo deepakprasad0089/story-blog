@@ -17,13 +17,13 @@ font-size: 24px;
 }
 
 
-header.title{
+header .title{
 display: flex;
 align-items: center;
 }
 
 
 
-header.title img{
+header .title img{
 margin-right: 30px;
 }
