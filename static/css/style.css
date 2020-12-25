@@ -36,3 +36,53 @@ align-items: center;
 color: #00FFFF;
 
 }
+
+header .menu .menu-item{
+margin-left: 60px;}
+
+
+.container{
+max-width: 450px;
+margin: 0 auto;
+}
+
+form{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+
+form textarea{
+width: 100px;
+font-family: Lato;
+font-size: 18px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: none;
+background-color: #C0C0C0;
+margin-bottom: 10px;
+}
+
+form input[type="submit"]
+{
+background-color: #0000CD;
+border: none;
+font-size: 18px;
+font-family: Lato;
+font-color: #ffffff;
+font-weight: bold;
+padding: 5px 30px;
+border-radius: 20px;
+}
+
+form input[type="submit"]:hover{
+color: #00008B;
+curser: pointer;
+}
+
+
+
+
+
+
