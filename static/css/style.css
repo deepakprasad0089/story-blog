@@ -70,10 +70,10 @@ background-color: #0000CD;
 border: none;
 font-size: 18px;
 font-family: Lato;
-font-color: #ffffff;
 font-weight: bold;
 padding: 5px 30px;
 border-radius: 20px;
+color: #ffffff;
 }
 
 form input[type="submit"]:hover{
